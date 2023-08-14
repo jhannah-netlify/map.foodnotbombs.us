@@ -9,8 +9,8 @@
 	
 	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
 	<style>
 		html, body {
@@ -43,17 +43,16 @@
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	}).addTo(map);
 
-        function onEachFeature(feature, layer) {
-                var popupContent = "";
-                if (feature.properties && feature.properties.popupContent) {
-                        popupContent += feature.properties.popupContent;
-                }
-                if (feature.properties && feature.properties.website) {
+  function onEachFeature(feature, layer) {
+  	var popupContent = "";
+  	if (feature.properties && feature.properties.popupContent) {
+    	popupContent += feature.properties.popupContent;
+    }
+    if (feature.properties && feature.properties.website) {
 			popupContent += " <a href='" + feature.properties.website + "' target='_blank'>Website</a>";
-                }
-
-                layer.bindPopup(popupContent);
-        }
+		}
+		layer.bindPopup(popupContent);
+	}
 
 	/* List of groups */
 	var groupLayer = L.geoJSON([fnbGroups], {
@@ -79,15 +78,15 @@
 
 <p><a href="http://foodnotbombs.net/" target="_blank">OFFICIAL MAP</a> (hundreds of groups, but out of date)</p>
 
-<p>To add your group to the DRAFT UNOFFICIAL map above:
-<ul>
-<li>Open a pull request against <a href="https://github.com/jhannah/map.foodnotbombs.us/blob/main/groups.js#L18-L28">our groups.js file</a>.</li>
-<li>If you don't know what a pull request is, that's fine, <a href="https://github.com/jhannah/map.foodnotbombs.us/issues">create a github Issue</a> with all your group information and we'll add it for you.</li>
-<li>If you don't have or want a github account that's fine, just email your
-group info to jay@jays.net and he'll add it for you.</li>
-</ul>
+<p>
+	To add your group to the DRAFT UNOFFICIAL map above::
+	<ul>
+		<li>Open a pull request against <a href="https://github.com/jhannah/map.foodnotbombs.us/blob/main/groups.js#L18-L28">our groups.js file</a>.</li>
+		<li>If you don't know what a pull request is, that's fine, <a href="https://github.com/jhannah/map.foodnotbombs.us/issues">create a github Issue</a> with all your group information and we'll add it for you.</li>
+		<li>If you don't have or want a github account that's fine, just email your
+		group info to jay@jays.net and he'll add it for you.</li>
+	</ul>
 </p>
 
 </body>
 </html>
-
