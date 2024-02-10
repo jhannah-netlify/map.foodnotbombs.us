@@ -39,5 +39,17 @@ var fnbGroups = {
 			},
 			"id": 3
 		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-95.3717084, 29.7588746]
+			},
+			"type": "Feature",
+			"properties": {
+				"popupContent": "Houston TX: Hungry? Want to Help? Come to 550 McKinney St, Houston, TX 77002 Mon., Wed., Fri, & Sun. at 7pm and help out.  Bring vegan food or just bring yourself! We have bowls & spoons.",
+				"website": "https://houstonfoodnotbombs.org/",
+			},
+			"id": 4
+		},
 	]
 };
