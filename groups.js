@@ -10,7 +10,7 @@ var fnbGroups = {
 			},
 			"type": "Feature",
 			"properties": {
-				"popupContent": "Omaha: Food distribution every Sunday at 2pm. Southeast corner of 14th and Farnum.",
+				"popupContent": "Omaha: Food distribution every Sunday at 2pm. Southeast corner of 14th and Farnam.",
 				"website": "http://omaha.foodnotbombs.us",
 			},
 			"id": 1
