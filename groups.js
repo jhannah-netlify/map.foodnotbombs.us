@@ -27,5 +27,17 @@ var fnbGroups = {
 			},
 			"id": 2
 		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-81.1015924, 32.058333]
+			},
+			"type": "Feature",
+			"properties": {
+				"popupContent": "Savannah GA: Sundays at 1 pm at Thomas Square Park, which is directly next to the Bull street library.",
+				"website": "https://www.facebook.com/SavannahFNB",
+			},
+			"id": 3
+		},
 	]
 };
