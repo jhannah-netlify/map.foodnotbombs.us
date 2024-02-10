@@ -1,13 +1,13 @@
 ---
 name: Add a group
-about: How to add a group to our map
+about: Add a group
 title: 'New group: MyGroup'
 labels: ''
 assignees: jhannah-netlify
 
 ---
 
-Here's an example of the data we need from you. The last description can be as short as you like, or as long as the map bubble will render.
+Here's an example of the data we need. Your description can be as short as you like. Please provide whatever information a newcomer will need to locate your group's activities.
 
 ```
 coordinates: [-75.4638045, 40.6127102]
