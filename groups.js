@@ -30,7 +30,7 @@ var fnbGroups = {
 		{
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-81.1015924, 32.058333]
+				"coordinates": [-81.0991178466344, 32.058268269850444]
 			},
 			"type": "Feature",
 			"properties": {
