@@ -51,5 +51,17 @@ var fnbGroups = {
 			},
 			"id": 4
 		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-120.65793978200787, 35.278731159930985]
+			},
+			"type": "Feature",
+			"properties": {
+				"popupContent": "San Luis Obispo, CA: Food distribution every Sunday, 1:00 - 3:00 pm Pacific time (rain or shine), In gazebo at Mitchell Park, block of Osos, Pismo, Buchon and Santa Rosa Streets",
+				"website": "https://www.instagram.com/foodnotbombs_slo",
+			},
+			"id": 5
+		},
 	]
 };
