@@ -23,7 +23,7 @@ var fnbGroups = {
 			"type": "Feature",
 			"properties": {
 				"popupContent": "Lehigh Valley, PA: Food distribution every Saturday, 3:00 standard time (Nov-Mar), 4:30 daylight saving time (Mar-Nov). In front of Sheridan Elementary, corner of 2nd and Liberty in Allentown.",
-				"website": "https://www.instagram.com/lvfoodnotbombs/",
+				"instagram": "https://www.instagram.com/lvfoodnotbombs/",
 			},
 			"id": 2
 		},
@@ -35,7 +35,7 @@ var fnbGroups = {
 			"type": "Feature",
 			"properties": {
 				"popupContent": "Savannah GA: Sundays at 1 pm at Thomas Square Park, which is directly next to the Bull street library.",
-				"website": "https://www.facebook.com/SavannahFNB",
+				"facebook": "https://www.facebook.com/SavannahFNB",
 			},
 			"id": 3
 		},
@@ -59,7 +59,8 @@ var fnbGroups = {
 			"type": "Feature",
 			"properties": {
 				"popupContent": "San Luis Obispo, CA: Food distribution every Sunday, 1:00 - 3:00 pm Pacific time (rain or shine), In gazebo at Mitchell Park, block of Osos, Pismo, Buchon and Santa Rosa Streets",
-				"website": "https://www.instagram.com/foodnotbombs_slo",
+				"instagram": "https://www.instagram.com/foodnotbombs_slo",
+				"facebook": "https://www.facebook.com/FoodNotBombsSLO",
 			},
 			"id": 5
 		},
