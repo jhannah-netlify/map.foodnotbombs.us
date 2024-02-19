@@ -64,5 +64,18 @@ var fnbGroups = {
 			},
 			"id": 5
 		},
+		{
+			"geometry": {
+				"type": "Point",
+				"coordinates": [101.698038, 3.148108]
+			},
+			"type": "Feature",
+			"properties": {
+				"popupContent": "Kuala Lumpur, Malaysia: serving free vegan or vegetarian meal to the masses, particularly the homeless persons.",
+				"instagram": "https://www.instagram.com/foodnotbombskl/",
+				"facebook": "https://www.facebook.com/profile.php?id=100064666542950",
+			},
+			"id": 6
+		},
 	]
 };
